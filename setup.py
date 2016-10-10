@@ -8,6 +8,8 @@ setup(
   author_email = 'info@cidre.tokyo',
   url = 'https://github.com/cidreixd/webmo-library-python',
   download_url = 'https://github.com/cidreixd/webmo-library-python/tarball/0.1',
-  keywords = ['webmo', 'websocket'], # arbitrary keywords
+  keywords = ['webmo', 'websocket'],
+  license = 'MIT',
+  install_requires = ['websocket-client'],
   classifiers = [],
 )
